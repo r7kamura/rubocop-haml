@@ -1,0 +1,19 @@
+require:
+  - rubocop-haml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  Exclude:
+    - spec/**/*.haml
+  NewCops: enable
+  TargetRubyVersion: 2.6
+
+Metrics:
+  Enabled: false
+
+Naming/FileName:
+  Exclude:
+    - lib/rubocop-haml.rb

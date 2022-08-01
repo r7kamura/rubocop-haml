@@ -1,0 +1,200 @@
+inherit_mode:
+  merge:
+    - Exclude
+    - Include
+
+AllCops:
+  Include:
+    - '**/*.haml'
+
+Layout/ArgumentAlignment:
+  Exclude:
+    - '**/*.haml'
+
+Layout/ArrayAlignment:
+  Exclude:
+    - '**/*.haml'
+
+Layout/BlockAlignment:
+  Exclude:
+    - '**/*.haml'
+
+Layout/ClosingParenthesisIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Lint/EmptyFile:
+  Exclude:
+    - '**/*.haml'
+
+Layout/EmptyLineAfterGuardClause:
+  Exclude:
+    - '**/*.haml'
+
+Layout/EndAlignment:
+  Exclude:
+    - '**/*.haml'
+
+Layout/FirstArgumentIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Layout/FirstArrayElementIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Layout/FirstArrayElementLineBreak:
+  Exclude:
+    - '**/*.haml'
+
+Layout/FirstHashElementIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Layout/FirstHashElementLineBreak:
+  Exclude:
+    - '**/*.haml'
+
+Layout/FirstMethodArgumentLineBreak:
+  Exclude:
+    - '**/*.haml'
+
+Layout/FirstParameterIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Layout/HashAlignment:
+  Exclude:
+    - '**/*.haml'
+
+Layout/IndentationConsistency:
+  Exclude:
+    - '**/*.haml'
+
+Layout/IndentationWidth:
+  Exclude:
+    - '**/*.haml'
+
+Layout/LineEndStringConcatenationIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Layout/LineLength:
+  Exclude:
+    - '**/*.haml'
+
+Layout/MultilineArrayBraceLayout:
+  Exclude:
+    - '**/*.haml'
+
+Layout/MultilineAssignmentLayout:
+  Exclude:
+    - '**/*.haml'
+
+Layout/MultilineHashBraceLayout:
+  Exclude:
+    - '**/*.haml'
+
+Layout/MultilineMethodCallBraceLayout:
+  Exclude:
+    - '**/*.haml'
+
+Layout/MultilineMethodCallIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  Exclude:
+    - '**/*.haml'
+
+Layout/MultilineOperationIndentation:
+  Exclude:
+    - '**/*.haml'
+
+Layout/ParameterAlignment:
+  Exclude:
+    - '**/*.haml'
+
+Layout/TrailingEmptyLines:
+  Exclude:
+    - '**/*.haml'
+
+Layout/TrailingWhitespace:
+  Exclude:
+    - '**/*.haml'
+
+Lint/UselessAssignment:
+  Exclude:
+    - '**/*.haml'
+
+Lint/Void:
+  Exclude:
+    - '**/*.haml'
+
+Metrics/BlockLength:
+  Exclude:
+    - '**/*.haml'
+
+Metrics/BlockNesting:
+  Exclude:
+    - '**/*.haml'
+
+Naming/FileName:
+  Exclude:
+    - '**/*.haml'
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - '**/*.haml'
+
+Style/IdenticalConditionalBranches:
+  Exclude:
+    - '**/*.haml'
+
+Style/IfUnlessModifier:
+  Exclude:
+    - '**/*.haml'
+
+Style/MultilineTernaryOperator:
+  Exclude:
+    - '**/*.haml'
+
+Style/NestedTernaryOperator:
+  Exclude:
+    - '**/*.haml'
+
+Style/Next:
+  Exclude:
+    - '**/*.haml'
+
+Style/ParallelAssignment:
+  Exclude:
+    - '**/*.haml'
+
+Style/RescueModifier:
+  Exclude:
+    - '**/*.haml'
+
+Style/Semicolon:
+  Exclude:
+    - '**/*.haml'
+
+Style/TrailingCommaInArguments:
+  Exclude:
+    - '**/*.haml'
+
+Style/TrailingCommaInArrayLiteral:
+  Exclude:
+    - '**/*.haml'
+
+Style/TrailingCommaInHashLiteral:
+  Exclude:
+    - '**/*.haml'
+
+Style/WhileUntilDo:
+  Exclude:
+    - '**/*.haml'
+
+Style/WhileUntilModifier:
+  Exclude:
+    - '**/*.haml'
