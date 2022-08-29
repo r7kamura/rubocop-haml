@@ -123,6 +123,10 @@ Lint/EmptyFile:
   Exclude:
     - '**/*.haml'
 
+Lint/SyntaxError:
+  Exclude:
+    - '**/*.haml'
+
 Lint/UselessAssignment:
   Exclude:
     - '**/*.haml'
