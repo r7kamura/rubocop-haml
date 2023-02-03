@@ -1,5 +1,6 @@
 require:
   - rubocop-haml
+  - rubocop-rake
 
 inherit_mode:
   merge:
