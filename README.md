@@ -1,6 +1,6 @@
 # rubocop-haml
 
-[RuboCop](https://github.com/rubocop/rubocop) plugin for [Haml](https://github.com/haml/haml) template language.
+[RuboCop](https://github.com/rubocop/rubocop) plugin for [Haml](https://github.com/haml/haml) template.
 
 ## Installation
 
@@ -18,7 +18,7 @@ gem install rubocop-haml
 
 ## Usage
 
-Require `"rubocop-haml"` in your RuboCop config.
+Require `rubocop-haml` in your RuboCop config.
 
 ```yaml
 # .rubocop.yml
