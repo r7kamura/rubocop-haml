@@ -1,24 +1,9 @@
-GIT
-  remote: https://github.com/rubocop/rubocop.git
-  revision: c8de3140c014120cfb80107b58cdede0e903f773
-  specs:
-    rubocop (1.45.1)
-      json (~> 2.3)
-      parallel (~> 1.10)
-      parser (>= 3.2.0.0)
-      rainbow (>= 2.2.2, < 4.0)
-      regexp_parser (>= 1.8, < 3.0)
-      rexml (>= 3.2.5, < 4.0)
-      rubocop-ast (>= 1.24.1, < 2.0)
-      ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 2.4.0, < 3.0)
-
 PATH
   remote: .
   specs:
     rubocop-haml (0.1.0)
       hamli (~> 0.5)
-      rubocop (~> 1.32)
+      rubocop (~> 1.45)
 
 GEM
   remote: https://rubygems.org/
@@ -48,6 +33,16 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
+    rubocop (1.45.1)
+      json (~> 2.3)
+      parallel (~> 1.10)
+      parser (>= 3.2.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.24.1, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.24.1)
       parser (>= 3.1.1.0)
     rubocop-capybara (2.17.0)
@@ -67,7 +62,6 @@ PLATFORMS
 DEPENDENCIES
   rake
   rspec
-  rubocop!
   rubocop-haml!
   rubocop-rake
   rubocop-rspec
