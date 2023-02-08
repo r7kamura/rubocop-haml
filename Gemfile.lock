@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-haml (0.1.0)
+    rubocop-haml (0.2.0)
       hamli (~> 0.5)
       rubocop (~> 1.45)
 
