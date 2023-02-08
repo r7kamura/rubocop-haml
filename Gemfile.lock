@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/rubocop/rubocop.git
-  revision: 3c9c49416c0fd3db077cec8410cb1280f6771dbb
+  revision: c8de3140c014120cfb80107b58cdede0e903f773
   specs:
-    rubocop (1.44.1)
+    rubocop (1.45.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)
@@ -33,7 +33,7 @@ GEM
       ast (~> 2.4.1)
     rainbow (3.1.1)
     rake (13.0.6)
-    regexp_parser (2.6.2)
+    regexp_parser (2.7.0)
     rexml (3.2.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
