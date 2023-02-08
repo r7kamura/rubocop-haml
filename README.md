@@ -47,3 +47,9 @@ spec/fixtures/dummy.haml:2:13: C: [Correctable] Style/StringLiterals: Prefer sin
 
 1 file inspected, 3 offenses detected, 3 offenses autocorrectable
 ```
+
+## Related projects
+
+- https://github.com/r7kamura/rubocop-erb
+- https://github.com/r7kamura/rubocop-slim
+- https://github.com/r7kamura/rubocop-markdown
