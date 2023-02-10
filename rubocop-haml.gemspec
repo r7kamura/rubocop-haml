@@ -4,7 +4,7 @@ require_relative 'lib/rubocop/haml/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'rubocop-haml'
-  spec.version = Rubocop::Haml::VERSION
+  spec.version = RuboCop::Haml::VERSION
   spec.authors = ['Ryo Nakamura']
   spec.email = ['r7kamura@gmail.com']
 
