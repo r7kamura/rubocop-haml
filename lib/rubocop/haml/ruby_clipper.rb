@@ -54,7 +54,7 @@ module RuboCop
             | while
             | for[ \t]+\w+[ \t]+in
           )
-          [ \t]
+          \b[ \t]*
         /x.freeze
 
         class << self
