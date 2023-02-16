@@ -40,5 +40,20 @@ RSpec.describe RuboCop::Haml::RubyExtractor do
         expect(result[2][:offset]).to eq(36)
       end
     end
+
+    context 'with `else`' do
+      let(:source) do
+        <<~HAML
+          - else
+        HAML
+      end
+
+      it 'returns Ruby codes with offset' do
+        result = subject
+        expect(result.length).to eq(1)
+        expect(result[0][:processed_source].raw_source).to eq('')
+        expect(result[0][:offset]).to eq(6)
+      end
+    end
   end
 end
