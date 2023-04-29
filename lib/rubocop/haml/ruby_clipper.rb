@@ -96,6 +96,7 @@ module RuboCop
           [ \t]*
           (\|[^|]*\|)?
           [ \t]*
+          (\#.*)?
           \Z
         /x.freeze
 

@@ -1,2 +1,5 @@
 %div(a="b #{?c}")
 %div{ :a => "b" }
+
+- array.each do |element| # disable:rubocop <- this is ignored
+  = element
