@@ -59,6 +59,20 @@ RSpec.describe RuboCop::Haml::RubyExtractor do
       end
     end
 
+    context 'with `foo(bar)do`' do
+      let(:source) do
+        <<~HAML
+          - foo(bar)do
+        HAML
+      end
+
+      it 'returns `foo(bar)` part' do
+        result = subject
+        expect(result.length).to eq(1)
+        expect(result[0][:processed_source].raw_source).to eq('foo(bar)')
+      end
+    end
+
     context 'with `else`' do
       let(:source) do
         <<~HAML
