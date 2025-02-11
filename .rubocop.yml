@@ -1,4 +1,4 @@
-require:
+plugins:
   - rubocop-haml
   - rubocop-rake
   - rubocop-rspec
@@ -11,7 +11,7 @@ AllCops:
   Exclude:
     - spec/**/*.haml
   NewCops: enable
-  TargetRubyVersion: 2.6
+  TargetRubyVersion: 2.7
 
 Gemspec/RequireMFA:
   Enabled: false
