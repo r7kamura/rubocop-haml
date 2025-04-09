@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-haml (0.2.4)
+    rubocop-haml (0.3.0)
       hamli (~> 0.5)
       lint_roller (~> 1.1)
       rubocop (~> 1.72.1)
