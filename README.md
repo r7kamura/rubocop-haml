@@ -26,9 +26,6 @@ plugins:
   - rubocop-haml
 ```
 
-> [!NOTE]
-> The plugin system is supported in RuboCop 1.72+. In earlier versions, use `require` instead of `plugins`.
-
 Now you can use RuboCop also for Haml templates.
 
 ```
@@ -54,4 +51,4 @@ spec/fixtures/dummy.haml:2:13: C: [Correctable] Style/StringLiterals: Prefer sin
 ## Related projects
 
 - https://github.com/r7kamura/rubocop-erb
-- https://github.com/r7kamura/rubocop-haml
+- https://github.com/r7kamura/rubocop-slim
