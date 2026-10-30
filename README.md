@@ -55,4 +55,3 @@ spec/fixtures/dummy.haml:2:13: C: [Correctable] Style/StringLiterals: Prefer sin
 
 - https://github.com/r7kamura/rubocop-erb
 - https://github.com/r7kamura/rubocop-haml
-- https://github.com/r7kamura/rubocop-markdown
