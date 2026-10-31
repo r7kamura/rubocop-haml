@@ -55,7 +55,7 @@ module RuboCop
             | for[ \t]+\w+[ \t]+in
           )
           \b[ \t]*
-        /x.freeze
+        /x
 
         class << self
           # @param [String] code
@@ -98,7 +98,7 @@ module RuboCop
           [ \t]*
           (\#.*)?
           \Z
-        /x.freeze
+        /x
 
         class << self
           # @param [String] code
