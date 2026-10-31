@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'RuboCop plugin for Haml template.'
   spec.homepage = 'https://github.com/r7kamura/rubocop-haml'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.7.0'
+  spec.required_ruby_version = '>= 3.3'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
